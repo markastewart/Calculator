@@ -18,6 +18,7 @@
 		564316A916604D5F000877DB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 564316A816604D5F000877DB /* Default-568h@2x.png */; };
 		564316AC16604D5F000877DB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564316AA16604D5F000877DB /* MainStoryboard.storyboard */; };
 		564316AF16604D5F000877DB /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564316AE16604D5F000877DB /* CalculatorViewController.m */; };
+		564316BB16628080000877DB /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 564316BA16628080000877DB /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		564316AB16604D5F000877DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		564316AD16604D5F000877DB /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		564316AE16604D5F000877DB /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		564316B916628080000877DB /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		564316BA16628080000877DB /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,8 @@
 		5643168316604D5F000877DB = {
 			isa = PBXGroup;
 			children = (
+				564316B916628080000877DB /* CalculatorBrain.h */,
+				564316BA16628080000877DB /* CalculatorBrain.m */,
 				5643169816604D5F000877DB /* Calculator */,
 				5643169116604D5F000877DB /* Frameworks */,
 				5643168F16604D5F000877DB /* Products */,
@@ -177,6 +182,7 @@
 				5643169F16604D5F000877DB /* main.m in Sources */,
 				564316A316604D5F000877DB /* CalculatorAppDelegate.m in Sources */,
 				564316AF16604D5F000877DB /* CalculatorViewController.m in Sources */,
+				564316BB16628080000877DB /* CalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +299,7 @@
 				564316B416604D5F000877DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
